@@ -85,7 +85,6 @@ int main(void){
     // Thử lấy thêm 1 phần tử khi stack rỗng
     int value = pop(&s); // sẽ in ra thông báo lỗi
     if (value == -1) {
-        // Do nothing, đã in trong pop()
     }
     return 0;
 }
